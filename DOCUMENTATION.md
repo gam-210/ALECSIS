@@ -1,6 +1,4 @@
-Expected List of Features
-
-Here is a list of features we would like for our device to have.
+**Expected List of Features:**
 
 One vibrating wristband and one sensor clip/belt.
 Reliable in terms of detection of obstacles (distance and angle of detection)
@@ -10,7 +8,7 @@ Cheap and open-source
 Easy to put on and implement
 
 
-LIST OF COMPONENTS AND PRICE OF OUR DEVICE
+**LIST OF COMPONENTS AND PRICE OF OUR DEVICE:**
 
 Ultrasonic sensor LV-MaxSonar-EZ3: 29.95 €
 2 Adafruit Feather nRF52840 boards:  2 x 34,65 €
@@ -26,6 +24,8 @@ PLA for the 3D printing: a few cents
 Total cost = 125 € 
 Without bluetooth the device would have cost approximately 45 € (we would have used a Arduino nano instead of Feather boards)
 
+**Tips:**
+
 Install Adafruit Feather nRF52840 card on Arduino: https://www.adafruit.com/package_adafruit_index.json  (copy this link in Arduino/Files/Preferences/URL)
 Tools/Board/ board manager/ and search Adafruit Feather nRF52840
 
@@ -33,10 +33,10 @@ LV-MaxSonar-EZ3 ultrasonic sensor in PW mode: distance range from 18 cm to 320 c
 
 The caps of the boxes are held by 2mm screws in 3mm screw inserts.
 
-#Results:
+**Results:**
 The two boards automatically connect to each other when we turn the switch on. The battery autonomy is quite short The delay for transmitting the data is undetectable : the motor starts to vibrate as soon as the user is closer than 120 cm from the obstacle.The sensor is very sensitive and detects numerous objects and obstacles from the surrounding environment. The motor is therefore often vibrating, and the motor waggles in its capsule. This produces a loud noise which can be very annoying for the user. It takes at least 1 or 2 seconds for the motor to stop vibrating when the sensor is switched off.
 
-#And in the future ? 
+**And in the future ? **
 
 Some elements could be improved to better the current state of the project. 
     Some improvements and further analysis may not require too much time and could be easily conducted : 
@@ -50,7 +50,4 @@ Moreover, we should work on the sensor part. This one has a wide range of detect
 One interesting aspect would be to find a way to detect and differentiate non-living objects from humans in order for the device not to vibrate if the user is in a crowded place . We could for example use infrared sensors that could measure the object temperature (alive obstacles being having a higher temperature), or we could try using a camera combined to an image recognition machine learning program, trained to differentiate living animals from urban furniture. 
 Finally, we could implement different modes (distance of detection, different vibration patterns…) in the device, for the user to be able to adapt its use to various contexts. 
 
-This non-exhaustive list of ideas could be considered as starting points to continue the project. We finished the week with a satisfying prototype considering the time frame of the project. We would be pleased to see someone interested in the project trying to continue and even improve what was done, be it with the previous mentioned ideas or with all new ones ! 
-
-
-
+This non-exhaustive list of ideas could be considered as starting points to continue the project. We finished the week with a satisfying prototype considering the time frame of the project. We would be pleased to see someone interested in the project trying to continue and even improve what was done, be it with the previous mentioned ideas or with all new ones !
