@@ -56,6 +56,8 @@ Print the 3D boxes and fix all your components inside.
 
 The caps of the boxes are held by 2mm screws in 3mm screw inserts.
 
+Try to improve the device !
+
 **Results:**
 The two boards automatically connect to each other when we turn the switch on. The battery autonomy is quite short. The delay for transmitting the data is undetectable : the motor starts to vibrate as soon as the user is closer than 120 cm from the obstacle. The sensor is very sensitive and detects numerous objects and obstacles from the surrounding environment. The motor is therefore often vibrating, and the motor waggles in its capsule. This produces a loud noise which can be very annoying for the user. It takes at least 1 or 2 seconds for the motor to stop vibrating when the sensor is switched off.
 
