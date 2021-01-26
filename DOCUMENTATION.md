@@ -18,24 +18,41 @@ Easy to put on and implement.
 Ultrasonic sensor LV-MaxSonar-EZ3: 29.95 €;
 
 2 Adafruit Feather nRF52840 boards:  2 x 34,65 €;
+
 Mini vibration motor 3,5 x 17: about 1 €;
+
 Arduino switch: 1,33 €;
+
 2 batteries: 2 x 9,90 €;
+
 USB wire: 1 €;
+
 Wires: a few cents;
+
 Tissue: a few cents;
+
 Inserts + screws: a few cents;
+
 PLA for the 3D printing: a few cents.
 
 Total cost = 125 € 
+
 Without bluetooth the device would have cost approximately 45 € (we would have used a Arduino nano instead of Feather boards)
 
-**Tips:**
+**Tutorial:**
 
 Install Adafruit Feather nRF52840 card on Arduino: copy this link in Arduino/Files/Preferences/URL: https://www.adafruit.com/package_adafruit_index.json 
-and then search Adafruit Feather nRF52840 in Tools/Board/ board manager/.
+and then search Adafruit Feather nRF52840 in Tools/Board/ board manager/ to install the suited library.
+
+Put the Peripheral code on one Feather card and the Central code on the other card.
+
+Make the electronic circuit.
 
 LV-MaxSonar-EZ3 ultrasonic sensor in PW mode: distance ranges from 18 cm to 320 cm. The angle of detection of the sensor is of approximately 20°.
+
+If it doesn't work, check your components one by one.
+
+Print the 3D boxes and fix all your components inside.
 
 The caps of the boxes are held by 2mm screws in 3mm screw inserts.
 
@@ -45,8 +62,11 @@ The two boards automatically connect to each other when we turn the switch on. T
 **And in the future ?**
 
 Some elements could be improved to better the current state of the project; some improvements and further analysis may not require too much time and could be easily conducted : 
+
 We would firstly fix the circuit elements inside the cases, in order to facilitate the manipulation and to avoid any wire detachment ; 
+
 We would also want to check the battery autonomy, to be able to inform the user on this subject and allow him or her to know when the device needs to be plugged for recharge ; 
+
 Finally, after testing our final prototype, we realized that the movement of the motor inside the case led to a disturbing noise. By fixing the motor more tightly in its own case currently located on the bracelet cap, using tape or sticking paste for example, we could try to reduce the noise.
 
 Other modifications that would require some more work could also be implemented :
