@@ -1,6 +1,6 @@
 **Expected List of Features:**
 
-One vibrating wristband and one sensor clip/belt;
+One vibrating wristband and one sensor clip/belt;/n
 Reliable in terms of detection of obstacles;
 Wearable and discrete : we chose to separate the sensor part and the wristband;
 Easy on / off : we want our device to be easily shut on / off, for the user to adapt its use to specific situations, where detection of obstacles may not be needed or suitable (a crowd for example);
