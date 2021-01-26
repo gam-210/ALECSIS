@@ -3,15 +3,20 @@
 One vibrating wristband and one sensor clip/belt;
 
 Reliable in terms of detection of obstacles;
+
 Wearable and discrete : we chose to separate the sensor part and the wristband;
+
 Easy on / off : we want our device to be easily shut on / off, for the user to adapt its use to specific situations, where detection of obstacles may not be needed or suitable (a crowd for example);
+
 Cheap and open-source;
+
 Easy to put on and implement.
 
 
 **LIST OF COMPONENTS AND PRICE OF OUR DEVICE:**
 
 Ultrasonic sensor LV-MaxSonar-EZ3: 29.95 €;
+
 2 Adafruit Feather nRF52840 boards:  2 x 34,65 €;
 Mini vibration motor 3,5 x 17: about 1 €;
 Arduino switch: 1,33 €;
